@@ -140,12 +140,23 @@ export default function Home() {
               Alojamiento disponible para que disfrutes tu estadía al máximo.
             </p>
           </div>
-          <div className="flex justify-center w-full">
+          <div className="flex flex-col items-center justify-center w-full space-y-6">
             <div className="airbnb-embed-frame" data-id="1058157139868686770" data-view="home" data-hide-price="true" style={{ width: '450px', height: '300px', margin: 'auto' }}>
               <a href="https://www.airbnb.com.ar/rooms/1058157139868686770?check_in=2026-04-25&check_out=2026-04-26&guests=1&adults=1&s=66&source=embed_widget">Mostrar en Airbnb</a>
               <a href="https://www.airbnb.com.ar/rooms/1058157139868686770?check_in=2026-04-25&check_out=2026-04-26&guests=1&adults=1&s=66&source=embed_widget" rel="nofollow">Alojamiento · Ciudad del Este · ★4,98 · 2 dormitorios · 4 camas · 2 baños</a>
             </div>
             <Script src="https://www.airbnb.com.py/embeddable/airbnb_jssdk" strategy="lazyOnload" />
+            
+            <div className="mt-4">
+              <a 
+                href="https://www.airbnb.com.ar/rooms/1058157139868686770" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-black hover:bg-gray-800 transition-colors shadow-md hover:shadow-lg"
+              >
+                Ver Alojamiento en Airbnb
+              </a>
+            </div>
           </div>
         </div>
       </section>
