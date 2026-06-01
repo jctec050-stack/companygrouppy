@@ -13,7 +13,7 @@ export interface Car {
   especificaciones: {
     motor: string;
     transmision: 'Automática' | 'Manual';
-    combustible: 'Nafta' | 'Diesel' | 'Híbrido' | 'Eléctrico';
+    combustible: 'Nafta' | 'Diesel' | 'Híbrido' | 'Eléctrico' | 'Nafta/Flex';
     asientos: number;
     maletero: string; // e.g. "2 Maletas"
     consumo?: string;
